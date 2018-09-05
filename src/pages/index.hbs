@@ -1,0 +1,24 @@
+{{#> ../layouts/base title='blog - bignamehere' }}
+
+  {{#*inline "main-block"}}
+
+    <div class="fsa-section">
+      <div class="fsa-section__bd">
+        <h1>blog</h1>
+
+
+        {{> ../components/pagination/pagination }}
+
+      </div>
+    </div>
+
+  {{/inline}}
+
+  {{#*inline "hidden-block"}}
+    <!-- HIDDEN - FOR MODALS/GROWL CONTENT -->
+    {{> ../includes/hidden }}
+    <!-- /HIDDEN -->
+  {{/inline}}
+
+
+{{/../layouts/base }}
