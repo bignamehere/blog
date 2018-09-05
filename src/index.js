@@ -26,7 +26,7 @@ import './stylesheets/_aoux-pt-strip.scss';
 
 // JS //////////////////////////////////////////////////////////////////////////
 
-//
+/////
 import jQuery from 'jquery';
 
 // Project-specific JS
